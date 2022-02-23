@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards Transparentes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>01</h2>
+        <h3>Card Um</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          illo labore quae fugit doloribus facilis exercitationem possimus quis,
+          minima quasi repellat temporibus velit odio, repudiandae molestias non
+          consectetur, perferendis iste?</p>
+        <a href="#">Mais Informações</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>02</h2>
+        <h3>Card Dois</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+          explicabo, hic ipsam suscipit tempora perferendis. Eum veritatis nemo
+          quia. Quos, laboriosam recusandae. Architecto delectus alias at et
+          harum? Quis, sit.</p>
+        <a href="#">Mais Informações</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>03</h2>
+        <h3>Card Três</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quas
+          quasi omnis, exercitationem temporibus aliquid, quia reprehenderit
+          ipsam consequatur accusantium est perferendis voluptate, suscipit
+          maxime itaque sint esse repellendus necessitatibus!</p>
+        <a href="#">Mais Informações</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+  </script>
+</body>
+
+</html>
